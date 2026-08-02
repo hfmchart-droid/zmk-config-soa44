@@ -72,10 +72,10 @@
 
         default {
             bindings = <
-&kp ESCAPE  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y          &kp U        &kp I  &kp O      &kp P          &kp PLUS
-&mo 2       &kp A         &kp S             &kp D      &kp F          &kp G    &kp H          &kp J        &kp K  &kp L      &kp SEMICOLON  &kp MINUS
-&mo 3       &kp Z         &kp X             &kp C      &kp V          &kp B    &td_mouse      &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
-            &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &lt 2 ENTER                    &mo 4
+&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P          &kp PLUS
+&mo 2  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp SEMICOLON  &kp MINUS
+&mo 3  &kp Z         &kp X             &kp C      &kp V          &kp B    &kp ESCAPE   &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
+       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &lt 2 ENTER                    &td_mouse
             >;
         };
 
@@ -90,10 +90,10 @@
 
         FUNCTION {
             bindings = <
-&kp HASH      &kp LS(Q)      &kp LS(W)         &kp LS(E)  &kp LS(R)   &kp LS(T)         &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)             &kp LS(P)              &kp EQUAL
-&trans        &kp LS(A)      &kp LS(S)         &kp LS(D)  &kp LS(F)   &kp LS(G)         &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)             &kp COLON              &kp TILDE
-&kp ASTERISK  &kp LS(Z)      &kp LS(X)         &kp LS(C)  &kp LS(V)   &kp LS(B)         &trans     &kp LS(N)  &kp LS(M)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
-              &kp LESS_THAN  &kp GREATER_THAN  &kp SPACE  &kp DELETE  &kp INT_MUHENKAN  &kp F10    &trans                                      &kp UNDERSCORE
+&kp HASH      &kp LS(Q)      &kp LS(W)         &kp LS(E)  &kp LS(R)   &kp LS(T)  &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)             &kp LS(P)              &kp EQUAL
+&trans        &kp LS(A)      &kp LS(S)         &kp LS(D)  &kp LS(F)   &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)             &kp COLON              &kp TILDE
+&kp ASTERISK  &kp LS(Z)      &kp LS(X)         &kp LS(C)  &kp LS(V)   &kp LS(B)  &trans     &kp LS(N)  &kp LS(M)  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION
+              &kp LESS_THAN  &kp GREATER_THAN  &kp SPACE  &kp DELETE  &kp F7     &kp F10    &trans                                      &kp UNDERSCORE
             >;
         };
 
