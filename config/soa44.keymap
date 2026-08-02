@@ -72,8 +72,8 @@
 
         default {
             bindings = <
-&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P          &kp PLUS
-&mo 2  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp SEMICOLON  &kp MINUS
+&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P          &kp JP_PLUS
+&mo 2  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp JP_SEMI  &kp JP_MINUS
 &mo 3  &kp Z         &kp X             &kp C      &kp V          &kp B    &kp ESCAPE   &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
        &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &lt 2 ENTER                    &td_mouse
             >;
