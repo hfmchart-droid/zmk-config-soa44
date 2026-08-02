@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include "keycode_japanese.h"
 
 &mt {
     flavor = "balanced";
@@ -74,7 +75,7 @@
 &kp ESCAPE  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y          &kp U        &kp I  &kp O      &kp P          &kp PLUS
 &mo 2       &kp A         &kp S             &kp D      &kp F          &kp G    &kp H          &kp J        &kp K  &kp L      &kp SEMICOLON  &kp MINUS
 &mo 3       &kp Z         &kp X             &kp C      &kp V          &kp B    &td_mouse      &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
-            &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp LA(GRAVE)  &lt 2 ENTER                    &mo 4
+            &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp LANG5  &lt 2 ENTER                    &mo 4
             >;
         };
 
