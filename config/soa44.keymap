@@ -72,16 +72,16 @@
 
         default {
             bindings = <
-&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P        &kp JP_PLUS
-&mo 3  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp JP_SEMI  &kp JP_MINUS
-&mo 2  &kp Z         &kp X             &kp C      &kp V          &kp B    &kp ESCAPE   &kp N        &kp M  &kp COMMA  &kp DOT      &kp SLASH
-       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &lt 2 ENTER                    &td_mouse
+&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U      &kp I  &kp O      &kp P        &kp JP_PLUS
+&mo 3  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J      &kp K  &kp L      &kp JP_SEMI  &kp JP_MINUS
+&mo 2  &kp Z         &kp X             &kp C      &kp V          &kp B    &kp ESCAPE   &kp N      &kp M  &kp COMMA  &kp DOT      &kp SLASH
+       &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &kp ENTER                    &td_mouse
             >;
         };
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp MB3  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans  &trans  &trans                      &trans
