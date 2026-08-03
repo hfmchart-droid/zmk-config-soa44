@@ -72,46 +72,46 @@
 
         default {
             bindings = <
-&kp ESCAPE  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P          &kp JP_PLUS
-&mo 2  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp JP_SEMI  &kp JP_MINUS
-&mo 3  &kp Z         &kp X             &kp C      &kp V          &kp B    &mo 4   &kp N        &kp M  &kp COMMA  &kp DOT        &kp SLASH
+&mo 4  &kp Q         &kp W             &kp E      &kp R          &kp T    &kp Y        &kp U        &kp I  &kp O      &kp P        &kp JP_PLUS
+&mo 3  &kp A         &kp S             &kp D      &kp F          &kp G    &kp H        &kp J        &kp K  &kp L      &kp JP_SEMI  &kp JP_MINUS
+&mo 2  &kp Z         &kp X             &kp C      &kp V          &kp B    &kp ESCAPE   &kp N        &kp M  &kp COMMA  &kp DOT      &kp SLASH
        &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE  &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &lt 2 ENTER                    &td_mouse
             >;
         };
 
         MOUSE {
             bindings = <
-&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans  &trans
-&trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans    &mkp MB3  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans                      &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &mo 5   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans  &trans                      &trans
             >;
         };
 
         FUNCTION {
             bindings = <
-&kp HASH      &kp LS(Q)      &kp LS(W)         &kp LS(E)  &kp LS(R)   &kp LS(T)  &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)             &kp LS(P)              &kp JP_EQUAL
-&trans        &kp LS(A)      &kp LS(S)         &kp LS(D)  &kp LS(F)   &kp LS(G)  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)             &kp JP_COLON              &kp JP_TILDE
-&kp JP_ASTRK  &kp LS(Z)      &kp LS(X)         &kp LS(C)  &kp LS(V)   &kp LS(B)  &trans     &kp LS(N)  &kp LS(M)  &kp JP_LPAR  &kp JP_RPAR  &kp JP_QMARK
-              &kp JP_LT  &kp JP_RT  &kp SPACE  &kp DELETE  &kp F7     &kp F10    &trans                                      &kp JP_UNDER
+&kp HASH      &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)   &kp LS(T)  &kp LS(Y)  &kp LS(U)      &kp LS(I)  &kp LS(O)    &kp LS(P)     &kp JP_EQUAL
+&trans        &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)   &kp LS(G)  &kp LS(H)  &kp LS(J)      &kp LS(K)  &kp LS(L)    &kp JP_COLON  &kp JP_TILDE
+&kp JP_ASTRK  &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)   &kp LS(B)  &trans     &kp LS(N)      &kp LS(M)  &kp JP_LPAR  &kp JP_RPAR   &kp JP_QMARK
+              &kp JP_LT  &kp JP_RT  &kp SPACE  &kp DELETE  &kp F7     &kp F10    &kp LS(ENTER)                          &kp JP_UNDER
             >;
         };
 
         NUM {
             bindings = <
-&trans  &kp N7        &kp N8        &kp N9        &kp R          &kp T    &kp Y          &kp U           &kp UP_ARROW    &kp O            &kp P          &kp JP_PLUS
-&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F          &kp G    &kp H          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp JP_SEMI  &kp JP_MINUS
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp V          &kp B    &trans         &kp N           &kp M           &kp COMMA        &kp PERIOD     &kp SLASH
+&trans  &kp N7        &kp N8        &kp N9        &kp R          &kp T    &kp Y        &kp U           &kp UP_ARROW    &kp O            &kp P        &kp JP_PLUS
+&trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F          &kp G    &kp H        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp JP_SEMI  &kp JP_MINUS
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp V          &kp B    &trans       &kp N           &kp M           &kp COMMA        &kp PERIOD   &kp SLASH
         &trans        &kp N0        &kp SPACE     &kp BACKSPACE  &kp TAB  &kp JP_ZKHK  &trans                                           &td_mouse
             >;
         };
 
         ARROW {
             bindings = <
-&trans  &kp F1             &kp F2            &kp F3    &kp F4      &kp F5       &kp F6     &kp F7         &kp F8        &kp F9  &kp F10  &kp JP_PLUS
-&trans  &kp JP_EXCL    &kp JP_AT       &kp JP_HASH  &kp JP_DLLR  &kp JP_PRCNT  &kp JP_CARET  &kp JP_AMPS  &kp JP_ASTRK  &kp L   &kp F11  &kp F12
-&trans  &kp JP_DQT  &kp JP_SQT          &trans    &trans      &trans       &trans     &trans         &trans        &trans  &trans   &trans
-        &trans             &kp LEFT_CONTROL  &trans    &trans      &trans       &trans     &trans                               &trans
+&trans  &kp F1       &kp F2            &kp F3       &kp F4       &kp F5        &kp F6        &kp F7       &kp F8        &kp F9  &kp F10  &kp JP_PLUS
+&trans  &kp JP_EXCL  &kp JP_AT         &kp JP_HASH  &kp JP_DLLR  &kp JP_PRCNT  &kp JP_CARET  &kp JP_AMPS  &kp JP_ASTRK  &kp L   &kp F11  &kp F12
+&trans  &kp JP_DQT   &kp JP_SQT        &trans       &trans       &trans        &trans        &trans       &trans        &trans  &trans   &trans
+        &trans       &kp LEFT_CONTROL  &trans       &trans       &trans        &trans        &trans                             &trans
             >;
         };
 
