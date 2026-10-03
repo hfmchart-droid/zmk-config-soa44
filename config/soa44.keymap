@@ -5,12 +5,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "keycode_japanese.h"
 
-```dts
-&mt {
-    flavor = "balanced";
-    quick-tap-ms = <0>;
-};
-
 / {
     combos {
         compatible = "zmk,combos";
