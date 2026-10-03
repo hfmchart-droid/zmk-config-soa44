@@ -51,7 +51,7 @@
         hirodaiPW: hirodaiPW {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(Z) &kp H &kp A &kp N &kp G &kp Y &kp U &kp E &kp QMARK &kp NUMBER_1 &kp N9 &kp N9 &kp NUMBER_4>;
+            bindings = <&kp LS(Z) &kp H &kp A &kp N &kp G &kp Y &kp U &kp E &kp JP_QMARK &kp NUMBER_1 &kp N9 &kp N9 &kp NUMBER_4>;
             label = "HIRODAIPW";
         };
     };
