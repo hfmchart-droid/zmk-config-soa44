@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "keycode_japanese.h"
 
+```dts
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
@@ -22,11 +23,6 @@
         shift_tab {
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
         };
 
         double_quotation {
@@ -57,15 +53,6 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to 0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
-
         td_mouse: td_mouse {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
